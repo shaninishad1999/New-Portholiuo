@@ -5,28 +5,42 @@
    
     text-decoration: none;
 } 
+
+/* home page start */
+
 .navbar{
-    background-color: #fefbd8;
     /* display: inline; */
     /* margin: auto; */
     padding-left: 10px;
     padding-right: 10px; 
+    background-color: #b9476f;
 }
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 .logo a{
     font-size: 40px;
     font-weight: 800;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: white;  
+    
+}
+.logo a:hover{
+   
+    font-style: italic;
+    font-weight: 900;
+
+
 }
 li{
     display: inline-block;
     list-style: none;
     text-align: center;
+    
     
 }
 li a{
@@ -35,20 +49,281 @@ li a{
     padding-right: 40px;
     margin-right: 35px;
     align-items: center;
+    color: wheat;
 }
+li a:hover{
+    color: blue;
+}
+
 .main{
-    text-align: right;
+    display: flex;  
+    background-color: #b9476f;   
 }
 .mainheading{
     text-align: left;
-    display: flex;
+    padding: 150px;
     padding-top: 200px;
 }
+.shani{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(165, 203, 69);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.mainheading p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .circle a img{
-    border-radius: 505;
+   border-radius: 50%;  
+   align-items: end;
+   margin-top: 30px;
+   margin-left: 80px;
+}
+.circle a img:hover{
+    border-style: dashed;
+   border-color: bisque;
+}
+button{
+    font-weight: 800;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background-color: aqua;
+    pointer-events: visibleFill;
+   
+}
+button:hover{
+    background-color: seagreen;
+    color: aqua;
 }
 
-  
+/* About section start */
+
+#about h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: #b2b4bc;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.about_main{
+    background-color: #b2b4bc;
+    
+    display: inline-flex;
+}
+
+
+
+.about_main img{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-bottom: 40px;
+}
+.about_main img:hover{
+   border-radius: 50%;
+}
+.about_main p{
+    margin-top: 10%;
+    padding-left: 100px;
+    padding-right: 50px;
+    text-align: justify;
+
+}
+
+/* Skills starts */
+
+#skills{
+    background-color: antiquewhite;
+
+}
+#skills h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+#skills p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.image{
+    margin-left: 130px;
+    padding-bottom: 50px;
+}
+.circle1{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/html.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    background-position: center;
+    background-size: cover; 
+}
+.circle1:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+.circle2{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/css.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+     
+}
+.circle2:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+.circle3{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/java.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+     
+}
+.circle3:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+.circle4{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/javascript_logo.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    
+}
+.circle4:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+.circle5{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/react.js-img.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+   
+}
+.circle5:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+.circle6{
+    
+    border: 8px solid red ;
+    border-color: rgb(255, 123, 0);
+    background-image: url(/Images/springboot.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+      
+}
+.circle6:hover{
+    border-color: #b9476f;
+    background-color: #515fce;
+   border-style: hidden;
+}
+/* Education section */
+#education{
+    background-color: 	#515fce;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/* education close */
+
+
+/* Services */
+#services{
+    background-color: cadetblue;
+}
+#services h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:30px ;
+
+}
+#services p{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.table{
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px; 
+    width: 72%;
+    background-color: bisque;
+}
+
+.table h3{
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+}
+.table p{
+    margin: 20px 20px 20px 20px;
+}
+.table i{
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    color: forestgreen;
+    font-size: 40px;
+}
+.table i:hover{
+    color: #515fce;
+    background-color: darkblue;
+    border-style: dashed;
+    background-color: transparent;
+}
 
 
 
