@@ -12,7 +12,7 @@
     /* display: inline; */
     /* margin: auto; */
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px 10px; 
     background-color: #b9476f;
 }
 .navdiv{
@@ -40,20 +40,23 @@ li{
     display: inline-block;
     list-style: none;
     text-align: center;
+   
+    align-items: center;
     
     
 }
 li a{
     font-size: 20px;
     font-weight: 600;
-    padding-right: 40px;
-    margin-right: 35px;
+    /* padding-right: 40px; */
+    margin-right: 45px;
     align-items: center;
     color: wheat;
 }
 li a:hover{
     color: blue;
-}
+    border-bottom: 4px solid red;
+    border-bottom-style: dashed;}
 
 .main{
     display: flex;  
@@ -106,7 +109,7 @@ button:hover{
     font-size: 50px;
     background-color: #b2b4bc;
     
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 
 }
 .about_main{
@@ -344,6 +347,44 @@ button:hover{
     border-style: dashed;
     background-color: transparent;
 }
+
+/* Blog */
+
+#blog{
+    background-color: lightgreen;
+}
+#blog h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+#blog p{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+
+}
+.table4{
+    padding-bottom: 40px;
+  padding-left: 20%;
+ 
+    
+}
+.table4 tr{
+    text-align: center;
+}
+.table4 tr img{
+    border-radius: 50%;
+    width: 300px;   
+}
+.table4 tr img:hover {
+
+        background-repeat: no-repeat;
+        cursor: pointer;
+        border: 4px solid #515fce;
+}
+
+/* Blog close */
 
 /* Contact form */
 
