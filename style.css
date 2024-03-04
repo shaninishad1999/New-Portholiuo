@@ -268,12 +268,32 @@ button:hover{
 /* Education section */
 #education{
     background-color: 	#515fce;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 30px;
-
+    padding-top: 50px;
+    padding-bottom: 200px; 
+    padding-left: 100px;
 }
+#education h2{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.edu{
+    padding-top: 50px;
+}
+.edu h3{
+    text-align: center;
+    font-size: 25px;
+    
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edu p{
+    padding-top: 50px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+
 
 /* education close */
 
@@ -323,6 +343,75 @@ button:hover{
     background-color: darkblue;
     border-style: dashed;
     background-color: transparent;
+}
+
+/* Contact form */
+
+#contact{
+    text-align: center;
+   
+    background-color: blueviolet;
+}
+#contact h2{
+    font-size: 40px;
+}
+#contact p{
+    text-align: center;
+}
+
+.table3{
+    border: 4px black;
+    padding-bottom: 50px;
+    width: 80%;
+    height: 20%;
+    height: 50vh;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 200px;
+    border-spacing: 1cm;
+    
+}
+.t_data {
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+.t_data p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.t_data2{
+    background-color: aquamarine;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.t_data2 h2{
+    padding-bottom: 20px;
+}
+.btn{
+    color: green;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.fname{
+    font-size: 20px;
+}
+
+
+.btn:hover{
+    color: white;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
